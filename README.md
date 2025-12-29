@@ -55,6 +55,7 @@ jmeter -n -t /path/to/your/test_plans/day3_full_workflow.jmx \
 
 📈 项目亮点与学习路径
 第一天：基础入门 - 理解测试计划、线程组、采样器、监听器的基本构成。
+
 第二天：参数化与关联 - 掌握使用CSV Data Set Config进行数据驱动，以及用JSON Extractor实现接口间动态传参。
 第三天：业务流程与并发 - 构建多步骤业务流，理解JMeter线程模型，分析聚合报告。
 第四天：高级场景建模 - 使用定时器模拟用户思考时间，使用逻辑控制器（If, Random）和同步定时器构建复杂的负载模型。
