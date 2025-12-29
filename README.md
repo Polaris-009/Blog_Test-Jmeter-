@@ -11,6 +11,7 @@ JMeter 性能测试实战项目
 性能分析思维：不仅关注脚本执行，更强调结果监听、瓶颈分析与报告解读。
 
 #🛠️ 核心技术栈与特性
+
 工具：Apache JMeter 5.6+
 
 协议：HTTP/HTTPS
@@ -44,6 +45,7 @@ JMeter 性能测试实战项目
 构建了阶梯式增长的并发负载模型和瞬时峰值并发场景。
 
 #🚀 快速开始
+
 1. 环境准备
 安装 Java 8+
 
@@ -63,12 +65,16 @@ JMeter 性能测试实战项目
 命令行（负载测试与报告生成）：
 
 使用命令行执行测试并生成html测试报告
+
 进入JMeter的bin目录
+
 cd apache-jmeter-5.6/bin
 运行测试并生成HTML报告
+
 jmeter -n -t /path/to/your/test_plans/day3_full_workflow.jmx \
        -l /path/to/results.jtl \
        -e -o /path/to/html_report_folder/
+       
 参数说明：
 
 -n：非GUI模式。
@@ -80,6 +86,7 @@ jmeter -n -t /path/to/your/test_plans/day3_full_workflow.jmx \
 -e -o：测试结束后生成HTML报告到指定文件夹。
 
 #📈 项目亮点与学习路径
+
 第一天：基础入门，参数化与关联 - 理解测试计划、线程组、采样器、监听器的基本构成。掌握使用CSV Data Set Config进行数据驱动，以及用JSON Extractor实现接口间动态传参。
 
 第二天：业务流程与并发 - 构建多步骤业务流，理解JMeter线程模型，分析聚合报告。
@@ -87,6 +94,7 @@ jmeter -n -t /path/to/your/test_plans/day3_full_workflow.jmx \
 第三天：高级场景建模 - 使用定时器模拟用户思考时间，使用逻辑控制器（If, Random）和同步定时器构建复杂的负载模型。
 
 #💡 使用建议与最佳实践
+
 调试阶段：多使用 View Results Tree 监听器，检查请求和响应细节。
 
 负载测试阶段：务必禁用 View Results Tree 等消耗资源的监听器，改用 Summary Report 或命令行模式。
