@@ -104,3 +104,13 @@ jmeter -n -t /path/to/your/test_plans/day3_full_workflow.jmx \
 数据管理：敏感数据（如真实API密钥）不应放在CSV文件中，建议使用JMeter的User Defined Variables或外部化配置。
 
 结果分析：重点关注 Aggregate Report 中的 Throughput（吞吐量）、Average Response Time（平均响应时间） 和 Error %（错误率）。
+
+✨ 致谢
+
+感谢 JSONPlaceholder 提供免费的虚拟API用于测试。
+
+感谢 Apache JMeter 社区提供如此强大的开源工具。
+
+祝你性能测试之旅顺利！ 如果有任何问题，欢迎在项目中提出 Issue。
+
+
